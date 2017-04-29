@@ -1,0 +1,4 @@
+[28-Apr-2017 01:31:14 America/Denver] PHP Notice:  Use of undefined constant header - assumed 'header' in /home1/stevede7/public_html/sdenton/musicmatch/browse.php on line 3
+[28-Apr-2017 01:31:14 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home1/stevede7/public_html/sdenton/musicmatch/includes/connection.php on line 2
+[28-Apr-2017 01:31:21 America/Denver] PHP Notice:  Use of undefined constant header - assumed 'header' in /home1/stevede7/public_html/sdenton/musicmatch/browse.php on line 3
+[28-Apr-2017 01:31:21 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home1/stevede7/public_html/sdenton/musicmatch/includes/connection.php on line 2
