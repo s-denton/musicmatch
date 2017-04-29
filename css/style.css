@@ -1,0 +1,390 @@
+html, body {
+	font-family: "Helvetica Neue Light", "Helvetica Neue", "HelveticaNeue-Light",  Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	width: auto !important;
+   	overflow-x: hidden !important;
+   	font-weight: lighter;
+	
+   	transition: .15s ease-in-out;
+	transition-property: background-position;
+	-webkit-transition: .15s ease-in-out;
+	-moz-transition: .15s ease-in-out;
+	-o-transition: .15s ease-in-out;
+
+	-webkit-transition-property: background-position;
+	-moz-transition-property: background-position;
+	-o-transition-property: background-position;
+}
+
+/**************** html tags *****************/
+
+h1, h2, h3 {
+	font-weight: 100;
+	text-align: center;
+}
+
+
+h5 {
+	font-weight: 100;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 80px;
+}
+
+hr {
+	width: 50%;
+}
+
+input[type="radio"] {
+  margin-top: 8px;
+  padding: 10px;
+}
+
+p {
+	margin: 0 5px 0 5px;
+	font-size: 1.3em;
+}
+
+th {
+	text-align: center;
+}
+
+/***************** IDs *******************/
+
+#about {
+	margin-bottom: 60px;
+}
+	#about h1 {
+		font-size: 5em;
+	}
+
+#browse_form {
+	position: relative;
+	margin: 10px auto;
+	z-index: 2;
+}
+
+#browse_results {
+	width: 100%;
+	height: auto;
+	position: relative;
+	border-radius: 0;
+	margin: 80px auto; 
+	padding: 20px;
+	text-align: center;
+	font-weight: 100;
+	z-index: 1;
+}
+
+#contact_box {
+	max-width: 800px;
+}
+
+#cpanel_btn {
+	height: 100px;
+	width: 350px;
+	font-size: 3em;
+	font-weight: 100;
+	border-radius: 100px;
+}
+
+#how_it_works {
+	margin-top: 95px; 
+}
+
+#mailing_form {
+	text-align: center;
+}
+
+#nav_logout {
+	margin-top: 13px;
+	margin-bottom: 0;
+	margin-right: 10px;
+	float: right;
+}
+
+#page {
+	background-image: url("../img/bg_landing.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: cover;	
+	margin: 0 auto;
+	position: absolute;
+}
+
+#signup_button {
+	height: 100px;
+	width: 300px;
+	font-size: 3em;
+	font-weight: 100;
+	border-radius: 100px;
+	margin-right: 5px;
+}
+
+#login_button {
+	height: 100px;
+	width: 300px;
+	font-size: 3em;
+	font-weight: 100;
+	border-radius: 100px;
+	margin-left: 5px;
+}
+
+#signup_frame {
+	background-color: rgba(155, 155, 155, 0.2);
+	width: 100%;
+	height: auto;
+	position: relative;
+	border-radius: 0;
+	margin: 80px auto; 
+	padding: 20px;
+	text-align: center;
+	font-weight: 100;
+	color: #ffffff;
+}
+
+	#signup_frame h1 {
+		font-size: 4em;
+		letter-spacing: 3px;
+		text-shadow: 0 5px 10px #0f0f0f;
+	}
+
+	#signup_frame h2 {
+		font-size: 3em;
+		letter-spacing: 3px;
+	}
+
+	#signup_frame h3 {
+		text-shadow: 0 5px 10px #0f0f0f;
+	}	
+
+	#signup_frame label {
+		font-weight: 200;
+		font-size: 1.5em;
+		text-shadow: 0 5px 10px #0f0f0f;
+	}
+
+#subscribe_frame {
+	background-color: rgba(255, 255, 255, 0.2);
+	width: auto;
+	height: auto;
+	border-radius: 20px;
+	margin: 0 auto; 
+	padding: 10px;
+	text-align: center;
+}
+
+#table_frame {
+	background-color: rgba(155, 155, 155, 0.2);
+	width: 100%;
+	height: auto;
+	position: relative;
+	border-radius: 0;
+	margin: 80px auto; 
+	padding: 20px;
+	text-align: center;
+	font-weight: 100;
+}
+
+	#table_frame h1 {
+		font-size: 4em;
+		letter-spacing: 3px;
+		text-shadow: 0 5px 10px #0f0f0f;
+		color: #ffffff;
+	}
+
+#top_bar {
+	margin-top: 100px;
+	background-color: rgba(155, 155, 155, 0.2);
+}
+
+#top_row {
+	text-align: center;
+	font-weight: 100;
+	text-shadow: 0 5px 10px #0f0f0f;
+	color: #ffffff;
+}
+
+	#top_row h1 {
+		font-size: 5em;
+		letter-spacing: 3px;
+		
+	}
+
+/***************** classes ******************/
+
+.alertBox {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.forgot_password_link {
+	font-size: 1.2em;
+	color: darkred;
+}
+	
+	.forgot_password_link:hover {
+		text-decoration: none;
+	}
+
+.form-group select {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+.form_text {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 100;
+	height: 40px;
+	margin: 10px;
+}
+
+.glyphicon_about {
+	padding: 10px;
+	font-size: 4em;
+	margin-bottom: 10px;
+}
+
+.glyphicon_user {
+	font-size: 4em;
+	letter-spacing: 15px;
+}
+
+.margin_top {
+	margin-top: 30px; 
+}
+
+.margin_bottom {
+	margin-bottom: 30px;
+}
+
+.margin_sides {
+	margin: 0 10px;
+}
+
+.navbar.navbar-default {
+	border: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+	border: none;
+	box-shadow: none;
+}
+
+.navbar {
+	background: url(70%-transparent-white.png);
+	background: rgba(255,255,255,0.7);
+	color: #000000;
+	font-weight: 300;
+	height: 60px;
+}
+	
+	.navbar li {
+		font-size: 1.2em;
+		margin-top: 5px;
+	}
+
+.navbar-brand {
+	font-size: 1.2em;
+	background: unset;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+
+.navbar-brand:hover {
+	color: #0f0f0f;
+}
+
+.navbar_login {
+	margin-top: 5px;
+}
+
+.parallax_landing { 
+    /* The image used */
+    background-image: url("../img/bg_landing.jpg");
+    background-color: rgba(102, 102, 102, 0.7);
+
+    /* Set a specific height */
+    height: 100vh; 
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.php_text {
+	margin-top: 15px;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.required {
+	padding: 10px;
+}
+
+.table {
+	width: 90%;
+}
+
+.table-condensed {
+	font-size: 1.3em;
+	font-weight: 200;
+}
+
+.table_trash {
+	color: #cd403d;
+	margin-top: 5px;
+	font-size: 1.5em;
+}
+
+.text_box {
+	text-align: center;
+}
+
+.text_dark {
+	color: #0f0f0f;
+}
+
+.title {
+	margin-top: 100px;
+	font-size: 300%;
+	text-align: center;
+}
+
+.white_space {
+	height: 100px;
+}
+
